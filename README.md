@@ -30,9 +30,9 @@ gerar quantos arquivos `.MDF` forem necessários de uma única vez.
 	|______RATO103
 	|______RATO104
 	
-	*Há 2 CLUSTERS: ABELHA (101, 102) e RATO (103,104)*
+	"Há 2 CLUSTERS: ABELHA (101, 102) e RATO (103,104)"
 	
-> Fica a cargo do usuário se vai querer processar os dois grupos *(ABELHA e RATO)*.
+> Fica a cargo do usuário se vai querer processar os dois grupos (ABELHA e RATO).
 
 É importante ressaltar que o programa incluirá **todos** os arquivos `.LOG` de um determinado
 grupo no arquivo `.MDF`, de modo que não é possível processar apenas **RATO103**, exemplo, e deixar

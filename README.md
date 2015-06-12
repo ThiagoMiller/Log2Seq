@@ -37,8 +37,7 @@ gerar quantos arquivos `.MDF` forem necessários de uma única vez.
 É importante ressaltar que o programa incluirá **todos** os arquivos `.LOG` de um determinado
 grupo no arquivo `.MDF`, de modo que não é possível processar apenas **RATO103**, exemplo, e deixar
 o **104** de fora. 
-*obs: A não ser, é claro, que se mova o arquivo **RATO103** para outra pasta e 
-selecione-a pelo programa.*
+*obs: A não ser, é claro, que se mova o arquivo **RATO103** para outra pasta e selecione-a pelo programa.*
 
 2. Selecione o(s) grupo(s) a ser(em) processado(s).
 

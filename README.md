@@ -5,7 +5,7 @@ Converte a saída de [EthoLog](http://www.ip.usp.br/docentes/ebottoni/EthoLog/et
 # Instalação
 
 * **Windows**: O programa roda sem a necessidade de instalação. Basta executar `.\Log2Seq.exe`. 
-* **Linux**: Pode-se executar o `script` `GUI.pl`: `perl GUI.pl`. Há a necessidade de se instalar a biblioteca `Tk`: `cpan -i Tk`.
+* **Linux**: Pode-se executar o script GUI.pl: `perl GUI.pl`. Há a necessidade de se instalar a biblioteca Tk: `cpan -i Tk`.
 
 # Motivação
 
@@ -30,7 +30,7 @@ gerar quantos arquivos `.MDF` forem necessários de uma única vez.
 	|______RATO103
 	|______RATO104
 	
-	"Há 2 CLUSTERS: ABELHA (101, 102) e RATO (103,104)"
+	"Há 2 **CLUSTERS**: ABELHA (101, 102) e RATO (103,104)"
 	
 > Fica a cargo do usuário se vai querer processar os dois grupos (ABELHA e RATO).
 

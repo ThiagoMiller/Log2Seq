@@ -12,7 +12,7 @@ Converte a saída de [EthoLog](http://www.ip.usp.br/docentes/ebottoni/EthoLog/et
 Os arquivos `.LOG` gerados pelo [EthoLog](http://www.ip.usp.br/docentes/ebottoni/EthoLog/ethohome.html) necessitam ser agrupados num arquivo `.MDF` para que possam ser analisados pelo [EthoSeq](http://www2.assis.unesp.br/cats/ethoseq.htm).
 
 É preciso extrair dos Arquivos `.LOG` a coluna com as *TAG's* atribuídas a cada comportamento. Estas colunas são então inseridas, com
-seus respectivos cabeçalhos, num arquivo `.MDF` que conterá todas as colunas extraídas de um determinado CLUSTER. Só então, é possível carregar a informção no programa [EthoSeq](http://www2.assis.unesp.br/cats/ethoseq.htm).
+seus respectivos cabeçalhos, num arquivo `.MDF` que conterá todas as colunas extraídas de um determinado *CLUSTER*. Só então, é possível carregar a informção no programa [EthoSeq](http://www2.assis.unesp.br/cats/ethoseq.htm).
 
 Para esse fim, foi desenvolvido o programa **Log2Seq** que possibilita
 gerar quantos arquivos `.MDF` forem necessários de uma única vez.
@@ -30,7 +30,7 @@ gerar quantos arquivos `.MDF` forem necessários de uma única vez.
 	|______RATO103
 	|______RATO104
 	
-	"Há 2 **CLUSTERS**: ABELHA (101, 102) e RATO (103,104)"
+	"Há 2 CLUSTERS: ABELHA (101, 102) e RATO (103,104)"
 	
 > Fica a cargo do usuário se vai querer processar os dois grupos (ABELHA e RATO).
 
@@ -52,7 +52,7 @@ do fututo arquivo `.MDF`. Do contrário, o programa **tomará** como título o p
 
 ## Dúvidas, Sugestões, Questões
 
-Entre em [contato](thiago_leisrael@hotmail.com) para o esclarecimento de quaisquer dúvidas.
+Entre em contato ( thiago_leisrael@hotmail.com ) para o esclarecimento de quaisquer dúvidas.
 
 Thiago L. A. Miller
 

@@ -1,0 +1,8 @@
+# Log2Seq v1.4
+Programa desenvolvido sob a orientação da Dra. Juliana de Oliveira
+
+Thiago Luiz Araujo Miller <thiago_leisrael@hotmail.com> 
+Copyright (c) 2013 . Todos os direitos reservados.
+
+Para mais informações, acesse: 
+	<https://github.com/ThiagoMiller/Log2Seq.git>

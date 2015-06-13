@@ -1,0 +1,65 @@
+# Log2Seq
+
+Este programa possui uma interface gráfica simples e intuitiva, visando
+um rápido processamento da informção.
+
+PROBLEMA: É preciso extrair dos Arquivos .LOG, gerados pelo Etholog, a coluna
+com as TAG's atribuídas a cada comportamento. Estas colunas são então inseridas, com
+seus respectivos cabeçalhos, num arquivo .mdf que conterá todas as colunas extraídas 
+de um determinado CLUSTER, grupo. Só então, é possível carregar a informção no 
+programa Ethoseq.  
+	 Para este fim, foi desenvolvido o programa Etholog2Ethoseq que possibilita
+gerar quantos arquivos .mdf forem necessários de uma única vez.
+
+COMO FUNCIONA: Dividindo por etapas:
+	1 - Selecione um diretório para pesquisar. 
+>> O programa irá buscar, recursivamente( pasta e subpastas ), no diretório especificado
+por arquivos .LOG. Estes serão agrupados pela "raiz" de seus nomes.
+	Exemplo: PASTA X\
+		  *ABELHA101  |
+		  *ABELHA102  |  Temos dois grupos: ABELHA (101,102) e RATO(103,104)   
+		  *RATO103    |
+   		  *RATO104    |
+>> Fica a cargo do usuário se vai querer processar os dois grupos (ABELHA e RATO).
+É importante ressaltar que o programa incluirá TODOS os arquivos .LOG de um determinado
+grupo no arquivo .mdf, de modo que não é possível processar apenas RATO103, exemplo, e deixar
+o 104 de fora. obs: A não ser, é claro, que se mova o arquivo RATO103 para outra pasta e 
+selecione-a pelo programa.
+
+	2 - Selecione o(s) grupo(s) a ser(em) processado(s).
+	
+	3 - (opcional) - Marque a opção 'escolher títulos', caso queira escrever o nome
+do fututo arquivo .mdf. Senão, o programa tomará como título o próprio nome do grupo.
+
+	4 - Indique uma pasta onde salvar os arquivos .mdf.
+	
+	Caso a opção 'escolher título' tenha sido marcada, ao clicar no botão Processar
+o usuário será levado a outra janela onde poderá escrever os títulos individualmente.
+
+
+#Licença
+
+Este é um programa livre.
+Você pode instalá-lo, usá-lo, modificá-lo e redistribuí-lo 
+nos termos da licença GPL original, como publicada em inglês pela Free Software Foundation.
+ESTE PROGRAMA É DISTRIBUÍDO NO ESTADO EM QUE SE ENCONTRA, COM A ESPERANÇA QUE SEJA ÚTIL,
+MAS SEM NENHUMA GARANTIA, MESMO QUE IMPLÍCITA, SEJA DE COMERCIALIZAÇÃO, NÃO VIOLAÇÃO DE
+DIREITOS OU DE SER APROPRIADO PARA ALGUMA FINALIDADE PARTICULAR.
+
+O Log2Seq, além do código desenvolvido pelo próprio projeto, 
+usa partes de terceiros:
+
+Ícone: <http://icons8.com/> 
+	pela licença Creative Commons Attribution-Share Alike 3.0 Unported License.
+
+ResourceHacker <http://www.angusj.com/>
+
+Perl: <https://www.perl.org/>
+
+Tk: <http://search.cpan.org/~ni-s/Tk-804.027/pod/UserGuide.pod>
+
+PAR-Packer: <http://search.cpan.org/~rschupp/PAR-Packer-1.025/lib/pp.pm>
+
+
+
+

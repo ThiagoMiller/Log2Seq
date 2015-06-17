@@ -56,9 +56,14 @@ Entre em contato ( thiago_leisrael@hotmail.com ) para o esclarecimento de quaisq
 
 # Desenvolvedores
 
-O **Log2Seq** foi desenvolvido por Thiago L. A. Miller 
-sob a orientação da Dra. Juliana de Oliveira ( juliana@assis.unesp.br ).
+O **Log2Seq** foi desenvolvido por Thiago L. A. Miller
+
+sob a orientação da Dra. Juliana de Oliveira (juliana@assis.unesp.br)
+
+e do Dr. Carlos C. Alberts (calberts@assis.unesp.br).
+
 Laboratório de Bioinformática
-UNESP - *Assis* - 2015. 
+
+UNESP - *Assis* - 2015
 
 

@@ -13,7 +13,7 @@ use base 'Exporter';
 our @EXPORT_OK = qw/ carrega faz_mdf  /;
 our %EXPORT_TAGS = ( all => \@EXPORT_OK );
 
-our $VERSION = '1.03';
+our $VERSION = '1.4';
 
 {
 # Faz busca recursiva no diretório escolhido. Os arquivos .LOG encontrados
